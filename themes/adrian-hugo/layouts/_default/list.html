@@ -22,7 +22,9 @@
               {{ if .Params.PriceBefore }}
               <span class="onsale">Sale</span>
               {{ end }}
-              <div class="product-hover-overlay">
+              
+             <!--
+                <div class="product-hover-overlay">
                 <button class="snipcart-add-item"
                   data-item-id="{{ .Title | urlize }}__{{ .Params.Price }}"
                   data-item-name="{{ .Title }}"
@@ -38,14 +40,15 @@
                   data-item-custom2-name="Choose Size"
                   data-item-custom2-options="{{ range $index, $element:= .Params.Sizes }}{{ if eq $index 0 }}{{ . | title | upper }}{{ else }}|{{ . | title | upper }}{{ end }}{{ end }}"
                   {{ end }}><i class="ti-shopping-cart-full"></i></button>
-              </div>
-
-              <div class="product-info">
+              </div> 
+              !-->
+                
+           <div class="product-info" > 
                 <h2 class="product-title h5 mb-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-                <span class="price">
+                <span class="price" >
                   {{ .Site.Params.currency }}{{ .Params.Price }}
                 </span>
-              </div>
+              </div> 
             </div>
           </div>
           {{ end }}
@@ -56,7 +59,7 @@
       </div>
       <div class="col-md-3">
         <section class="widget widget-categories mb-5">
-          <h3 class="widget-title h4 mb-4">Categories</h3>
+          <h3 class="widget-title h4 mb-4">Brand</h3>
           {{- if isset .Site.Taxonomies "categories" }}
           {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
           <ul class="list-unstyled">

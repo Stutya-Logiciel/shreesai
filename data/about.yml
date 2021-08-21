@@ -5,25 +5,17 @@ about:
     # about item loop
     - title : "Our Mission"
       image : "images/about/about-1.jpg"
-      content : "Praesent blandit dolorhon quam. In vemi sit amet augue congue elementum. Morbi in ipsum sit amet pede
-            facilisis laoreet."
+      content : " Mobile phone has become part and parcel of the human life. We can smell the fragrance of relationship with our loved ones by mobile. 
+                A new gadget is being launched every month which put people in confusion. We Shree Sai Enterprises, amalgamate the looks, new 
+                technology and robustness of mobiles with the choice, convenience and elegance. We strive hard to fulfill your needs. We provide 
+                customers with wide range of opportunities to explore various brands. We work on the mantra of ' Happy experience and happy price'. 
+                We are committed to ensure 100% Purchase protection for customer by offering genuine products, secure payments and world class service."
             
-    # about item loop
-    - title : "Our Vission"
-      image : "images/about/about-3.jpg"
-      content : "Lights together to you’re together. You’ll. Form. Moving created one. Darkness whales fourth from own
-            moved."
-            
-    # about item loop
-    - title : "Statement"
-      image : "images/about/about-2.jpg"
-      content : "Praesent blandit dolorhon quam. In vemi sit amet augue congue elementum. Morbi in ipsum sit amet pede
-            facilisis laoreet."
 
 
 ###########################  Team ############################
 team:
-  enable : true
+  enable : false
   title : "Team Members"
   subtitle : "Dedicated team behind the scene"
   teamMember:

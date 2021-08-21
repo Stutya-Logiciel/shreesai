@@ -14,7 +14,7 @@
             <h1 class="mt-2 mb-5 title">{{ .title | markdownify }}</h1>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absURL }}" class="btn btn-main">{{ .label }}</a>
+            <a href="{{ `categories/` | absURL }}{{ .link }}" class="btn btn-main">{{ .label }}</a>
             {{ end }}
             {{ end }}
           </div>
@@ -30,15 +30,15 @@
 <!-- category -->
 {{ if .Site.Data.homepage.categories.enable }}
 {{ with .Site.Data.homepage.categories }}
-<section class="category section pt-3 pb-0">
+<section class="catrgory section pt-3 pb-0">
   <div class="container">
     <div class="row">
       {{ range .category }}
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="cat-item mb-4 mb-lg-0">
-          <img src="{{ .image | relURL }}" alt="category" class="img-fluid">
+         <p> <img src="{{ .image | relURL }}" alt="category" class="img-fluid"> </p>
           <div class="item-info">
-            <p class="mb-0">{{ .title | markdownify }}</p>
+            <h3 class="mb-4">{{ .title | markdownify }}</h3>
             <h4 class="mb-4">{{ .offer | markdownify }}</h4>
             <a href="{{ `categories/` | absURL }}{{ .link }}" class="read-more">Shop now</a>
           </div>

@@ -2,33 +2,33 @@
 company:
   enable  : true
   title : "Our Company"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo quia cupiditate, dolore
-          possimus quidem maxime, neque beatae. Fuga maxime quos recusandae ratione earum atque, quam sunt dolorem illum
-          dolor."
+  content : "We Shree Sai Enterprises, amalgamate the looks, new 
+                technology and robustness of mobiles with the choice, convenience and elegance. We strive hard to fulfill your needs. We provide 
+                customers with wide range of opportunities to explore various brands. We work on the mantra of ' Happy experience and happy price'. "
   office:
     # office loop
-    - name : "Corporate Office"
+    - name : "Gandhi Maidan"
       officeContact:
         - icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
-          content : "Khaja Road, Bayzid, Bangladesh"
+          content : "twin tower, near Hotel Maurya, South Gandhi Maidan, Patna, Bihar 800001"
           
         - icon : "ti-mobile" # themify icon pack : https://themify.me/themify-icons
-          content : "+880-31-000-000"
+          content : "+91 9334102043"
           
         - icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
-          content : "hello@example.com"
+          content : "srisaienterprises@gmail.com"
           
     # office loop
-    - name : "Branch Office"
+    - name : "Rajapull (Dujra Main Road)"
       officeContact:
         - icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
-          content : "184 Street Victoria 8007"
+          content : "Near Petrol Pump, Dujra Main Road, Opp Gate No-19, Patna, Bihar 800001"
           
         - icon : "ti-mobile" # themify icon pack : https://themify.me/themify-icons
-          content : "+880-31-000-000"
+          content : "+91 7766893909"
           
         - icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
-          content : "hello@example.com"
+          content : "shreesaipatna18@gmail.com"
 
 
 ########################### Map #################################
